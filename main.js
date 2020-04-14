@@ -1,6 +1,6 @@
 // Constants
 var num_questions = 4;
-var error = {text: "Oops! You missed a question! Go back and answer all the questions!", 
+var error = {text: "Ooops! You missed a question! Go back and answer all the questions!", 
             bg: "url(images/error.gif)"};
 var harvey = {text: "You are Harvey Specter!", bg: "url(images/harvey.gif" };
 var louis = {text: "You are Louis Litt!", bg: "url(images/louis.gif" };
