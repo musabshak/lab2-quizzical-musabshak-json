@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buzzfeed Style Quiz!!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Which Suits character are you?</h1>
+    </div>
+
+    <div class="main">
+
+        <div class="q1 question-wrapper">
+            <div class="q1 question-text-container">
+                <h2>Pick an outfit</h2>
+            </div>
+
+            <div class="q1 choices-container">
+                <label> 
+                    <div id="q1.1" class="choice-img"></div>
+                    <input type="radio" name="q1" value="1">    
+                </label>
+                <label> 
+                    <div id="q1.2" class="choice-img"></div>
+                    <input type="radio" name="q1" value="2">    
+                </label>
+                <label> 
+                    <div id="q1.3" class="choice-img"></div>
+                    <input type="radio" name="q1" value="3">    
+                </label>
+                <label> 
+                    <div id="q1.4" class="choice-img"></div>
+                    <input type="radio" name="q1" value="4">    
+                </label>
+            </div>
+        </div>
+
+        <div class="q2 question-wrapper">
+            <div class="q2 question-text-container">
+                <h2>What is the most important quality in a person?</h2>
+            </div>
+
+            <div class="q2 choices-container">
+                <label> 
+                    <div id="q2.1" class="choice-img">Loyalty</div>
+                    <input type="radio" name="q2" value="1">    
+                </label>
+                <label> 
+                    <div id="q2.2" class="choice-img">Honesty</div>
+                    <input type="radio" name="q2" value="2">    
+                </label>
+                <label> 
+                    <div id="q2.3" class="choice-img">Ambition</div>
+                    <input type="radio" name="q2" value="3">    
+                </label>
+                <label> 
+                    <div id="q2.4" class="choice-img">Humour</div>
+                    <input type="radio" name="q2" value="4">    
+                </label>
+            </div>
+        </div>
+
+        <div class="q3 question-wrapper">
+            <div class="q3 question-text-container">
+                <h2>Pick a sport</h2>
+            </div>
+
+            <div class="q3 choices-container">
+                <label> 
+                    <div id="q3.1" class="choice-img">
+                        <div class="q-text">Boxing</div>
+                    </div>
+                    <input type="radio" name="q3" value="1">    
+                </label>
+                <label> 
+                    <div id="q3.2" class="choice-img">
+                        <div class="q-text">Tennis</div>
+                    </div>
+                    <input type="radio" name="q3" value="2">    
+                </label>
+                <label> 
+                    <div id="q3.3" class="choice-img">
+                        <div class="q-text"> Golf</div>
+                    </div>
+                    <input type="radio" name="q3" value="3">    
+                </label>
+                <label> 
+                    <div id="q3.4" class="choice-img">
+                        <div class="q-text"> Fencing</div>
+                    </div>
+                    <input type="radio" name="q3" value="4">    
+                </label>
+            </div>
+        </div>
+
+        <div class="q4 question-wrapper">
+            <div class="q4 question-text-container">
+                <h2>Pick a dessert</h2>
+            </div>
+
+            <div class="q4 choices-container">
+                <label> 
+                    <div id="q4.1" class="choice-img"></div>
+                    <input type="radio" name="q4" value="1">    
+                </label>
+                <label> 
+                    <div id="q4.2" class="choice-img"></div>
+                    <input type="radio" name="q4" value="2">    
+                </label>
+                <label> 
+                    <div id="q4.3" class="choice-img"></div>
+                    <input type="radio" name="q4" value="3">    
+                </label>
+                <label> 
+                    <div id="q4.4" class="choice-img"></div>
+                    <input type="radio" name="q4" value="4">    
+                </label>
+            </div>
+        </div>
+
+        <div class="submit-button-container">
+            <button type="button" id="submit-button">What am I?</button>
+        </div>
+
+        <div id="myModal" class="outcome-container">
+            <div class="outcome-content">
+                <div id=outcome-content-gif></div>
+                <div id="outcome-content-text" ></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="main.js"></script>
+
+</body>
+
+
+</html>
