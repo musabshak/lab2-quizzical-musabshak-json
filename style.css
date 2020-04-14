@@ -176,7 +176,7 @@ div[id="q4.4"] {
 
 .submit-button-container {
     /* border: 2px green solid; */
-    width: 500px;
+    max-width: 500px;
     min-height: 200px;
     position: relative;
     margin: 15px;
