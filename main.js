@@ -119,7 +119,7 @@ $('#submit-button').on('click', function(e) {
         console.log(jessica);
         $('.outcome-container').css("display", "flex");
         $('#outcome-content-gif').css("background-image", jessica.bg)
-        $('#outcome-content-text').text(jessica);
+        $('#outcome-content-text').text(jessica.text);
     }
 
 
