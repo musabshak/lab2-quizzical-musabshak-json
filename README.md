@@ -13,3 +13,9 @@ https://dartmouth-cs52-20s.github.io/lab2-quizzical-musabshak/
 - Output is a modal and is animated (fades into screen-middle from screen-top).
 - Light sweep effect when hovering over submit button.
 - Page works perfectly in mobile; answer choices arrange as columns instead of rows.
+
+
+### Extra credit
+- Why should `<script src="main.js"></script>` be placed right before the closing \</body> tag, rather than in \<head>\</head>?
+    - If there is a lot of code in the JS file, the page may load visibly slowly. This is because browser reads HTML from top to bottom and loading a long JS file in the head section at the top will delay loading of the HTML page.
+    - Not relevant for this assignment but if the JS file edits any HTML/CSS upon being read in, loading it in the head section may throw errors. This is because there will have been no HTML read at the time the JS script is loaded. 
