@@ -1,0 +1,93 @@
+{
+    "title": "New title yay!",
+    "outcomes": {
+            "harvey": {"text": "You are Harvey Specter!", "bg": "url(images/harvey.gif)" },
+            "louis": {"text": "You are Louis Litt!", "bg": "url(images/louis.gif)" }
+    },
+    "questions": [
+        {
+            "question_name": "q1",
+            "question_text": "Pick an outfit",
+            "question_img_url": "images/bboard.jpg",
+            "answers": [
+                {
+                    "text": "",
+                    "img_url": "images/outfit1.jpg",
+                    "outcome": "1"
+                },
+                {
+                    "text": "",
+                    "img_url": "images/outfit2.jpg",
+                    "outcome": "2"
+                },
+                {
+                    "text": "",
+                    "img_url": "images/outfit3.jpg",
+                    "outcome": "3"
+                },
+                {
+                    "text": "",
+                    "img_url": "images/outfit4.jpg",
+                    "outcome": "4"
+                }
+
+            ]
+        },
+        {
+            "question_name": "q2",
+            "question_text": "Most important quality in a person?",
+            "question_img_url": "images/bboard.jpg",
+            "answers": [
+                {
+                    "text": "Loyalty",
+                    "img_url": "",
+                    "outcome": "1"
+                },
+                {
+                    "text": "Honesty",
+                    "img_url": "",
+                    "outcome": "2"
+                },
+                {
+                    "text": "Ambition",
+                    "img_url": "",
+                    "outcome": "3"
+                },
+                {
+                    "text": "Humour",
+                    "img_url": "",
+                    "outcome": "4"
+                }
+
+            ]
+        },       
+        {
+            "question_name": "q3",
+            "question_text": "Pick a sport",
+            "question_img_url": "images/bboard.jpg",
+            "answers": [
+                {
+                    "text": "Boxing",
+                    "img_url": "images/sport1.jpg",
+                    "outcome": "1"
+                },
+                {
+                    "text": "Tennis",
+                    "img_url": "images/sport2.jpg",
+                    "outcome": "2"
+                },
+                {
+                    "text": "Golf",
+                    "img_url": "images/sport3.jpg",
+                    "outcome": "3"
+                },
+                {
+                    "text": "Fencing",
+                    "img_url": "images/sport4.jpg",
+                    "outcome": "4"
+                }
+
+            ]
+        }        
+    ]
+}
