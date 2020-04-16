@@ -19,3 +19,6 @@ https://dartmouth-cs52-20s.github.io/lab2-quizzical-musabshak/
 - Why should `<script src="main.js"></script>` be placed right before the closing \</body> tag, rather than in \<head>\</head>?
     - If there is a lot of code in the JS file, the page may load visibly slowly. This is because browser reads HTML from top to bottom and loading a long JS file in the head section at the top will delay loading of the HTML page.
     - Not relevant for this assignment but if the JS file edits any HTML/CSS upon being read in, loading it in the head section may throw errors. This is because there will have been no HTML read at the time the JS script is loaded. 
+- Did Javascript focus option as well. Worked on that option in the "json-option" branch. Wanted to keep the json-built version of  the quiz separate from the hard-coded quiz; because GitHub only allows publishing one page per repository, I created a new repository and pushed the json-option branch to the master branch of the new repository. The repository and resulting webpage are as follows: 
+    - `https://github.com/musabshak/lab2-quizzical-musabshak-json/`
+    - `https://musabshak.github.io/lab2-quizzical-musabshak-json`
